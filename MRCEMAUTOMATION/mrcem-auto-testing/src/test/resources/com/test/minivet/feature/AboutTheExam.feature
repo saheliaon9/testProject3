@@ -1,11 +1,11 @@
-#Feature: About the exam
-#
-#  Background:
-#    Given the user has login mrcem and selects home icon
+Feature: About the exam
 
-#    Scenario: Check the dropdown list of MRCEM exam
-#      When the user selects about the exam dropdown
-#      Then dropdown list will be shown with following options MRCEm primary,MRCEM overview, MRCEM intermediate SBA, MRCEM OSCE
+  Background:
+    Given the user has login mrcem and selects home icon
+
+    Scenario: Check the dropdown list of MRCEM exam
+     When the user selects about the exam dropdown
+      Then dropdown list will be shown with following options MRCEm primary,MRCEM overview, MRCEM intermediate SBA, MRCEM OSCE
 
 
 #     Scenario: Display MRCEM OVERVIEW screen
